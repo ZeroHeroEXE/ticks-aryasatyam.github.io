@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TICKS</title>
+    <script src=""></script>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <div class="navbar-menu">
+                <div class="navbar-logo">
+                    <h1>TICKS.</h1>
+                </div>
+
+                <div class="navbar-item dropdown">
+                    <a href="" class="navbar-link">
+                        <div class="burger"></div>
+                        <div class="burger"></div>
+                        <div class="burger"></div>
+                    </a>
+                    
+                    <div class="dropdown-menu">
+                        <div class="dropdown-item"><a href="index.html" class="dropdown-link">Home</a></div>
+                        <div class="dropdown-item"><a href="register.html" class="dropdown-link">Register</a></div>
+                        <div class="dropdown-item"><a href="tickets-upcoming.html" class="dropdown-link">Tickets</a></div>
+                        <div class="dropdown-item"><a href="promotions.html" class="dropdown-link">Promotions</a></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    <div class="main-container">
+        <h3 class="register-title">REGISTER</h3>
+        <div class="registrationform">
+            <br>
+            <form id="registrationForm" onsubmit="validateForm(event)">
+            <div> 
+                <br>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" required placeholder="Enter your email..." class="input-box">
+                <span id="emailError" class="error"></span>
+            </div>
+            <br>
+            <div>
+                <label for="password">Password:</label>
+                <br>
+                <input type="password" id="password" required placeholder="Enter your password..." class="input-box">
+                <span id="passwordError" class="error"></span>
+            </div>
+            <br>
+            <div>
+                <label for="confirmpassword">Confirm Password:</label>
+                <br>
+                <input type="password" id="confirmpassword" required placeholder="Confirm your password..." class="input-box">
+                <span id="confirmpasswordError" class="error"></span>
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone Number:</label>
+                <br>
+                <input type="tel" id="phone" required placeholder="Enter your phoneNumber..." class="input-box">
+                <span id="phoneError" class="error"></span>
+            </div>
+            <br>
+            <div>
+                <label for="gender">Gender:</label>
+                <br>
+                <input name="genderBtn" type="radio" required class="gender-btn">Male
+                <input name="genderBtn" type="radio" required class="gender-btn">Female
+                <input name="genderBtn" type="radio" required class="gender-btn">Prefer Not To Say
+                <span id="genderError" class="error"></span>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="terms" required>
+                <label for="terms">I agree with the terms and conditions</label>
+                <span id="termsError" class="error"></span>
+            </div>
+            <br>
+            <button type="submit" id="register">Register</button>
+            <br>
+            <br>
+            </form>
+        </div>
+    </div>
+    <footer class="footbar">
+    
+        <div class="footbar-menu">
+            <div class="footbar-left">
+                <div class="footbar-item"><a href="" class="footbar-link">&copy; Ticks. 2023</a></div>
+            </div>
+
+            <div class="footbar-right">
+                <div class="footbar-item"><a href="" class="footbar-link">Contact Us</a></div>
+                <div class="footbar-item"><a href="" class="footbar-link">Instagram</a></div>
+                <div class="footbar-item"><a href="" class="footbar-link">Twitter</a></div>
+            </div>
+        </div>
+    </footer>
+</body>
+    <script src="register.js"></script>
+</html>

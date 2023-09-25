@@ -1,0 +1,116 @@
+<!-- TICKS -->
+<!-- ➢ 2502036123 – Aryasatya Maisha -->
+<!-- ➢ 2502020806 – Muhammad Umar Tsaqib -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TICKS</title>
+</head>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <div class="navbar-menu">
+                <div class="navbar-logo">
+                    <h1>TICKS.</h1>
+                </div>
+
+                <div class="navbar-item dropdown">
+                    <a href="" class="navbar-link">
+                        <div class="burger"></div>
+                        <div class="burger"></div>
+                        <div class="burger"></div>
+                    </a>
+                    
+                    <div class="dropdown-menu">
+                        <div class="dropdown-item"><a href="index.html" class="dropdown-link">Home</a></div>
+                        <div class="dropdown-item"><a href="register.html" class="dropdown-link">Register</a></div>
+                        <div class="dropdown-item"><a href="tickets-upcoming.html" class="dropdown-link">Tickets</a></div>
+                        <div class="dropdown-item"><a href="promotions.html" class="dropdown-link">Promotions</a></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="main-container">
+            <div class="carousel-container">
+                <div class="carousel-image-container">
+                    <img src="assets/banner-wtf2023.jpg" alt="" class="carousel-pic fade" id="carousel-1">
+                    <img src="assets/banner-coldplay.jpeg" alt="" class="carousel-pic fade" id="carousel-2">
+                    <img src="assets/banner-theweeknd.jpeg" alt="" class="carousel-pic fade" id="carousel-3">
+                    <img src="assets/banner-boypablo-fixed.jpg" alt="" class="carousel-pic fade" id="carousel-4">
+                    <a class="prev" id="prevButton">&#10094;</a>
+                    <a class="next" id="nextButton">&#10095;</a>
+                </div>
+    
+                <div style="text-align:center" class="dot-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+
+            <div class="best-seller-container">
+                <h2 class="main-title">BEST SELLER</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <a href="detail-coldplay.html" class="href-card">
+                            <img src="assets/banner-coldplay.jpeg" alt="" class="card-img">
+                            <h4 class="card-text">COLDPLAY: MUSIC OF THE SPHERES - JAKARTA 2023</h4>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="detail-wtf.html" class="href-card">
+                            <img src="assets/banner-wtf2023.jpg" alt="" class="card-img" id="card-wtf">
+                            <h4 class="card-text">WE THE FEST 2023</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recommendation-container">
+                <h2 class="main-title">RECOMMENDATION</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <a href="detail-harrystyles.html" class="href-card">
+                            <img src="assets/banner-harrystyles.jpg" alt="" class="card-img" id="card-wtf">
+                            <h4 class="card-text">HARRY STYLES: LOVE ON TOUR 2023</h4>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="detail-taylorswift.html" class="href-card">
+                            <img src="assets/banner-taylor-cegil.jpg" alt="" class="card-img" id="card-wtf">
+                            <h4 class="card-text">TAYLOR SWIFT: THE ERAS TOUR 2023</h4>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <footer class="footbar">
+            <div class="footbar-menu">
+                <div class="footbar-left">
+                    <div class="footbar-item"><a href="" class="footbar-link">&copy; Ticks. 2023</a></div>
+                </div>
+
+                <div class="footbar-right">
+                    <div class="footbar-item"><a href="" class="footbar-link">Contact Us</a></div>
+                    <div class="footbar-item"><a href="" class="footbar-link">Instagram</a></div>
+                    <div class="footbar-item"><a href="" class="footbar-link">Twitter</a></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+    <script src="jquery-3.7.0.min.js"></script>
+    <script src="script.js"></script>
+</html>

@@ -1,0 +1,95 @@
+@import "style.css";
+
+.selector{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.upcoming-selector{
+    padding-right: 30px;
+}
+
+.ongoing-selector{
+    padding-left: 30px;
+}
+
+.spacer{
+    color:rgb(223, 26, 108);
+}
+
+.upcoming-title, .ongoing-title, .href-selector{
+    text-decoration: none;
+    color: rgb(223, 26, 108);
+}
+
+.ongoing-title{
+    text-decoration: underline;
+}
+
+.upcoming-title{
+    font-weight: normal;
+}
+
+.subtext{
+    display: inline;
+    text-align: right;
+}
+
+.card-subtext{
+    color: khaki;
+    font-size: 18px;
+}
+
+#coldplay-subtext{
+    margin-left: 118px;
+}
+
+#wtf-subtext{
+    margin-left: 635px;
+}
+
+#harrystyles-subtext{
+    margin-left: 393px;
+}
+
+#rex-subtext{
+    margin-left: 370px;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        margin: 0;
+    }
+
+    .wrapper{
+        margin: 0;
+    }
+
+    .card{
+        display: inline-block;
+    }
+
+    .href-card{
+        display: inline-block;
+    }
+
+    .card-img{
+        width: 100%;
+    }
+
+    .card-text{
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-right:0;
+    }
+
+    .card-subtext{
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    #card-wtf-container{
+        width: 94.3%;
+    }
+}
